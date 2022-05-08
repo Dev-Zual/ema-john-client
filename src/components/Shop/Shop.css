@@ -1,0 +1,29 @@
+.product-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.shop-container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-left: 140px;
+  margin-right: 40px;
+}
+.pagination-container {
+  margin: 30px 40px 30px 140px;
+}
+.pagination-container button {
+  margin-right: 10px;
+  border: 1px solid orange;
+  background-color: white;
+}
+.pagination-container .selected {
+  background-color: orange;
+  color: white;
+}
+.order-summery {
+  background: rgba(255, 153, 0, 0.3);
+
+  padding: 10px;
+}
